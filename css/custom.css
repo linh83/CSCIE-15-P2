@@ -1,0 +1,210 @@
+.clearfix {
+	clear:both;
+}
+body {
+    background-image: url('../img/texture.jpg');
+} 
+#container {
+	width: 1100px;
+	margin: 0 auto;
+	height: 700px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#header {
+	height: 64px;
+}
+#content {
+	height: 550px;
+}
+#footer{
+	clear:both;
+	height: 50px;
+}
+#left {
+	width: 100px;
+	float: left;
+	height: 550px;
+}
+#center {
+	width: 895px;
+	height: 590px;
+	float: left;
+	background-color: rgb(255,221,187);
+	background-repeat: repeat;
+	background-size: 100% 100%;
+}
+#right {
+	float:left;
+	width: 102px;
+	height: 520px;
+}
+.ttl{
+	margin-top:10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+}
+#border {
+	background-color: #81d8d0;
+	background-repeat: repeat;
+	width: 200px;
+	height: 2px;
+	margin-top: 3px;
+	margin: 0 auto;
+}
+#result {
+	width: 500px;
+	height: 50px;
+	margin: 20px auto 0 auto;
+}
+input[type="text"] {
+	border-radius: 5px;
+	border: 3px solid rgb(185,122,87);
+}
+#result input {
+	margin-left: -10px;
+	width: 500px;
+	height: 50px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+#general, #separation{
+	float: left;
+	margin-top:10px;
+	margin-left: 50px;
+	width: 350px
+	height: 150px;
+}
+#include, #case-transform{
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	width: 350px
+	height: 150px;
+}
+.result_m {
+	border-radius: 5px;
+	border: 3px solid rgb(185,122,87);
+	width: 350px;
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.alignC {
+	text-align: center;
+	margin-top: 20px;
+}
+#button {
+	margin-top: 5px;
+	width: 150px;
+	height: 50px;
+	background: url(../img/green-rectangle-button-md.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	border:none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/*
+* Css for button radio
+* Copyright: csscheckbox dot com;
+*/
+
+input[type=radio].css-radio {
+	display: none;
+}
+
+input[type=radio].css-radio + label.css-label {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-left:30px;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;	
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 24px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=radio].css-radio:checked + label.css-label{
+	background-position: 0 -24px;
+}
+
+label.css-label {
+	background-image: url(../img/csscheckbox.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input[type=number]{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 10px 1px 3px 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	width: 70px;
+	height: 24px;
+	font-size: 17px;
+	line-height: 24px;
+}
+input[type=number]:focus, select:focus {
+  	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+select {
+	padding: 3px 0px 3px 3px;
+	margin: 10px 1px 3px 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	width: 74px;
+	height: 30px;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+input[type=checkbox].checkbox {
+	display: none;
+}
+
+label.label-checkbox {
+	background-image: url(../img/csscheckbox1.png);
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	padding-left: 30px;
+	background-position: 0px 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 17px;
+}
+
+label.label-checkbox.chk {
+	background-position: 0px -17px;
+}
+
+.css-lbl {
+	font-size: 17px;
+	font-weight: bold;
+}
