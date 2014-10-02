@@ -1,12 +1,16 @@
-cscie-15-p1
-Live URL of the project : http://p1.smartknowledgebase.com/
+Linh Truong - CSCIE 15 - P2 - xkcd Password Generator
 
-Description of project : P1 of CSCIE-15
+Live URL :http://p2.smartknowledgebase.com/
 
-  • Project using Boostrap framework
-  
-  •	Using custom CSS (/CSS/custom.css)to override some of the default CSS value
+Description
+A simple generator of xkcd style password
 
-Outside code
+Demo
+comming soon
+No login require
+the file Password_Genertor.php is use to generate the password
 
-  •	Bootstrap framework: http://getbootstrap.com/
+outside code
+word list: http://www.winedt.org/Dict/
+jquery javasrcipt library: http://code.jquery.com
+few image of radio button: http://www.csscheckbox.com/
