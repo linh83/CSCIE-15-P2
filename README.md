@@ -3,7 +3,7 @@ Linh Truong - CSCIE 15 - P2 - xkcd Password Generator
 Live URL :http://p2.smartknowledgebase.com/
 
 Description
-    A simple generator of xkcd style password
+        A simple generator of xkcd style password
 
 Demo
 
